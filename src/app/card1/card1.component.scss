@@ -16,24 +16,72 @@
             letter-spacing: 0.2em;
             text-align: center;
             text-transform: uppercase;
-
-
         }
-
+        .mb-4{
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: overflow;
+            align-items:end ;
+            z-index: 1;
+ 
+        }
+        .ringouter{
+            position: absolute;
+            height: 50px;
+            width: 50px;
+            background-color: white;
+            color: #6d727c;
+            border-radius: 50%;
+            margin-left:20px ;
+            margin-bottom: 20px;
+            z-index: 3;
+            outline: none;
+        }
+        .ringouter:hover{
+        background-color: #01b7cc;
+        color: white;
+        }
+        
+          
+       h3{
+        font-family: Rubik;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0px;
+        line-height: 28px;
+        text-transform: none;
+       }
         h2 {
             font-family: Rubik;
             font-weight: 700;
         }
-
+        .button-icon{
+            border-radius: 100px;
+            padding:  15px;
+            line-height: 10px;
+        
+        }
         .btn-link {
 
             color: #01b7cc;
             text-decoration: none;
             cursor: pointer;
-            font-size: 11px;
-            line-height: 24px;
             text-transform: uppercase;
             font-weight: 500;
+        }
+        .article-author-name{
+            font-size: 11px;
+            line-height: 24px;
+            font-weight: 500;
+            
+         }
+        
+        .podcast-author-name{
+           font-size: 16px;
+           line-height: 24px;
+           font-weight: 500;
+           
         }
 
         .article-date {
@@ -78,6 +126,7 @@
                     color: #01b7cc;
 
                 }
+                
             }
         }
 

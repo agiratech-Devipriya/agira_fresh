@@ -29,18 +29,24 @@
         .ringouter{
             position: absolute;
             height: 50px;
-            width: 50px;
+           padding: 0 15px;
             background-color: white;
             color: #6d727c;
-            border-radius: 50%;
+            border-radius: 25px;
             margin-left:20px ;
             margin-bottom: 20px;
             z-index: 3;
             outline: none;
+            
         }
         .ringouter:hover{
         background-color: #01b7cc;
         color: white;
+        }
+        .ring{
+            i{
+            margin-right: 10px;
+        }
         }
         
           
@@ -133,3 +139,18 @@
     }
 
 }
+.card-book{
+    position: absolute;
+    display:flex;
+    flex-direction: row;
+    background-color:cadetblue ;
+    margin: 20px;
+    border-color: #2b3146;
+    box-shadow: #2b3146;
+    height: 350px;
+    width: 650px;
+    justify-content: space-around;
+    
+} 
+
+

@@ -1,5 +1,7 @@
 // import { Component } from '@angular/core';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+
+
 import { Component, } from '@angular/core';
 
 
@@ -9,6 +11,7 @@ import { Component, } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
+  
   cards = [
     {
       imageUrl: 'https://placehold.co/600x400',
@@ -91,7 +94,13 @@ export class AppComponent {
   },
  
 ];
+
 }
+
+
+
+
+
 
 
 

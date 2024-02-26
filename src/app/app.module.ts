@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+// import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 // import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -21,6 +22,8 @@ import { EBookComponent } from './e-book/e-book.component';
     BrowserModule,
     NgbModule,
     AppRoutingModule,
+    
+  
   ],
   providers: [
   ],
@@ -29,4 +32,5 @@ import { EBookComponent } from './e-book/e-book.component';
   ],
 })
 export class AppModule {
+
 }

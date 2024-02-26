@@ -6,18 +6,18 @@ import { ArticleComponent } from './article/article.component';
 import { Card1Component } from './card1/card1.component';
 
 const routes: Routes = [
-// {
-//   path :'e-book',
-//   component : EBookComponent
-// },
+{
+  path :'e-book',
+  component : EBookComponent
+},
 {
   path :'podcast',
   component : PodcastComponent
 },
-// {
-//   path :'article',
-//   component : ArticleComponent
-// },
+{
+  path :'article',
+  component : ArticleComponent
+},
 // {
 //   path :'card1',
 //   component : Card1Component

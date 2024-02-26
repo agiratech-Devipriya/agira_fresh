@@ -1,18 +1,41 @@
-<app-podcast ></app-podcast>
-<app-podcast (podcastDataEvent)="receivePodcastData($event)"></app-podcast>
+<div class="podcast-head ph-2">
+    <h1>E-BOOKS</h1>
+    <button type="button" class="btn btn-info btn-info-2">View All</button>
+</div>
 <div class="container">
     <div class="row">
-        <div class="col-6 mb-4"><app-e-book ></app-e-book></div>
-        <div class="col-6 mb-4"><app-e-book ></app-e-book></div>
-        <div class="col-6 mb-4"><app-e-book ></app-e-book></div>
-        <div class="col-6 mb-4"><app-e-book ></app-e-book></div>
-         <!-- <div class="col-6 mb-4"><app-e-book ></app-e-book></div>
-        <div class="col-6 mb-4"><app-e-book ></app-e-book></div>
-        <div class="col-6 mb-4"><app-e-book ></app-e-book></div>
-        <div class="col-6 mb-4"><app-e-book ></app-e-book></div>
-        <div class="col-6 mb-4"><app-e-book ></app-e-book></div>
-        <div class="col-6 mb-4"><app-e-book ></app-e-book></div>
-        <div class="col-6 mb-4"><app-e-book ></app-e-book></div>
-        <div class="col-6 mb-4"><app-e-book ></app-e-book></div>  -->
+
+        <div *ngFor="let ebook of ebooks" class="col-6 mb-2">
+            <app-e-book [ebook]="ebook"></app-e-book>
+        </div>
+
+
+
+        <div class="podcast-head">
+            <h1>PODCAST</h1>
+            <button type="button" class="btn btn-info btn-info-1">View All</button>
+        </div>
+        <div class="container">
+            <div class="row">
+
+                <div *ngFor="let card of cards" class="col-4 mb-4">
+                    <app-podcast [card]="card"></app-podcast>
+                </div>
+            </div>
+
+            <div class="podcast-head ph-2">
+                <h1>Article</h1>
+                <button type="button" class="btn btn-info btn-info-2">View All</button>
+            </div>
+            <div class="container">
+                <div class="row">
+
+                    <div *ngFor="let article of articles" class="col-4 mb-4">
+                        <app-article [article]="article"></app-article>
+                    </div>
+
+                </div>
+            </div>
+        </div>
     </div>
 </div>

@@ -1,3 +1,29 @@
 body {
     background-color: #f6fafc;
 }
+h1{
+    text-align: center;
+}
+.btn-info{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    position:inherit ;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-info-1{
+    margin-left: 63.5%;
+}
+.btn-info-2{
+    margin-left: 63.5%;
+}
+
+.podcast-head{
+    display: flex;
+    flex-direction: row;
+    margin-left: 14%;
+}
+.container{
+    margin-bottom:10PX ;
+}

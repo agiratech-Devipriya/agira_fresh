@@ -1,1 +1,23 @@
-<p>article works!</p>
+<div  class="card">
+    <div class="card-body">
+      <div class="mb-4">
+        <img class="image-mb4" [src]="article.imageUrl" class="card-img-top" alt="cardimage">
+      </div>
+      <div class="mt-4 mb-4">
+        <a class="badge bg-secondary">{{ article.category }}</a>
+      </div>
+      <h2 class="card-title mt-4 mb-4">{{ article.title }}</h2>
+      <div class="mt-4 mb-4 align-items-center">
+        <img src="https://placehold.co/50x50" class="rounded-circle" alt="circleimage">
+        <a type="button" class="btn btn-link article-author-name">{{ article.author }}</a>
+        <span class="article-date">{{ article.date }}</span>
+      </div>
+      <p class="card-text">{{ article.content }}</p>
+      <div class="card-footer text-muted">
+        <button type="button" class="btn btn-link">Learn more</button>
+      </div>
+    </div>
+  </div>
+  
+
+  

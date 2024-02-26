@@ -1,15 +1,17 @@
-<div class="card">  
+<div class="card">
   <div class="card-body">
     <div class="row">
-      <div class="col-3">
-        <img class="image-mb4" src="https://placehold.co/150x200" class="w-100" alt="cardimage">
+      <div class="col-5">
+        <img class="image-mb4" [src]="ebook.imageUrl"  alt="cardimage">
       </div>
-      <div class="col-9">
-        <h4 class="card-title mt-4 mb-4">Easy Strategies to Help Your Family Succeed in 2020</h4>
-        <div class="">
+      
+      <div class="col-7">
+        <h4 class="card-title mt-4 mb-4">{{ ebook.title }}</h4>
+        <div class=" ">
           <button type="button" class="btn btn-primary">Download</button>
         </div>
       </div>
     </div>
   </div>
 </div>
+

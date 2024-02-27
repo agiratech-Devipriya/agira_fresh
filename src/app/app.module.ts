@@ -9,6 +9,7 @@ import { Card1Component } from './card1/card1.component';
 import { ArticleComponent } from './article/article.component';
 import { PodcastComponent } from './podcast/podcast.component';
 import { EBookComponent } from './e-book/e-book.component';
+import { PeopleComponent } from './people/people.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { EBookComponent } from './e-book/e-book.component';
     ArticleComponent,
     PodcastComponent,
     EBookComponent,
+    PeopleComponent,
   ],
   imports: [
     BrowserModule,

@@ -4,6 +4,7 @@ import { EBookComponent } from './e-book/e-book.component';
 import { PodcastComponent } from './podcast/podcast.component';
 import { ArticleComponent } from './article/article.component';
 import { Card1Component } from './card1/card1.component';
+import { PeopleComponent } from './people/people.component';
 
 const routes: Routes = [
 {
@@ -18,6 +19,10 @@ const routes: Routes = [
   path :'article',
   component : ArticleComponent
 },
+{
+  path :'people',
+  component :PeopleComponent
+}
 // {
 //   path :'card1',
 //   component : Card1Component

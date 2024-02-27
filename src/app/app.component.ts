@@ -1,7 +1,7 @@
 // import { Component } from '@angular/core';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
-
+import { Router } from '@angular/router';
 import { Component, } from '@angular/core';
 
 
@@ -44,10 +44,6 @@ export class AppComponent {
   
   
    
-  
-   
-
-    
   
 
   imageUrl: string = "https://placehold.co/150x200";
@@ -94,6 +90,33 @@ export class AppComponent {
   },
  
 ];
+peoples:any=[{
+  imageUrl:"https://placehold.co/200x200",
+  h2:'Devipriya',
+  h5:'engineer',
+  p:'It is our job to get you the information you need, so you can make the most of your aviation investments.'
+},
+{
+  imageUrl:"https://placehold.co/200x200",
+  h2:'Jeeva',
+  h5:'engineer',
+  p:'It is our job to get you the information you need, so you can make the most of your aviation investments.'
+},
+{
+  imageUrl:"https://placehold.co/200x200",
+  h2:'Harini',
+  h5:'engineer',
+  p:'It is our job to get you the information you need, so you can make the most of your aviation investments.'
+}
+
+
+
+];
+constructor(private router: Router) {}
+
+navigateToPeople() {
+  this.router.navigate(['/people']);
+}
 
 }
 

@@ -52,3 +52,16 @@ p{
 .join{
     display:flex;
 }
+.social-i {
+    justify-content:center;
+    margin-right: 60px;
+}
+.social-i:hover{
+    color: #6EC1E4;
+}
+.social{
+ display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}

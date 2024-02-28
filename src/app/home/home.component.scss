@@ -1,0 +1,79 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #f6fafc;
+}
+h1{
+    text-align: left;
+}
+.btn-info{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+    position:inherit ;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-info-1{
+    margin-left: 63.5%;
+}
+.btn-info-2{
+    margin-left: 63.5%;
+}
+.btn-info-3{
+    margin-left: 73.5%;
+}
+.btn-info-4{
+    margin-left: 53.5%;
+}
+.podcast-head{
+    display: flex;
+    flex-direction: row;
+     margin-left: 13%;
+
+}
+.e-book{
+    margin-left: 15%;
+
+}
+.pod{
+    margin-left: 4%;
+}
+.article{
+    margin-left: 4%;
+}
+.people{
+    margin-left: 4%;
+}
+.container{
+    margin-bottom:10PX ;
+}
+.carousel-item{
+
+  background-color: black;
+}
+
+.sub-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 70%;
+    list-style: none;
+    margin-right: 30px;
+    
+}
+.sub-menu a{
+    text-decoration: none;
+    color:gray;
+    font-weight: bold;
+}
+.sub-menu a:hover{
+    text-decoration: solid;
+    cursor: pointer;
+    color:black;
+}
+.logo{
+    height: 30px;
+    width: 40px;
+}

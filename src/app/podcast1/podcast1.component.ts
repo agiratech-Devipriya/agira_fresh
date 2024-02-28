@@ -30,6 +30,30 @@ export class Podcast1Component {
       type: 'FASHION',
       title: 'Greenland Unicorns and the Magical Alicorn',
       
+    },
+    {
+      imageUrl: 'https://placehold.co/600x400',
+      duration: '30 mins',
+    
+      type: 'FASHION',
+      title: 'Greenland Unicorns and the Magical Alicorn',
+      
+    },
+    {
+      imageUrl: 'https://placehold.co/600x400',
+      duration: '30 mins',
+    
+      type: 'FASHION',
+      title: 'Greenland Unicorns and the Magical Alicorn',
+      
+    },
+    {
+      imageUrl: 'https://placehold.co/600x400',
+      duration: '30 mins',
+    
+      type: 'FASHION',
+      title: 'Greenland Unicorns and the Magical Alicorn',
+      
     }
   ];
 }

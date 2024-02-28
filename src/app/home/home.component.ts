@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+// import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { Component, } from '@angular/core';
 
 
 
@@ -120,10 +121,13 @@ navigateToArticle() {
 }
 
 navigateToEBook() {
-  this.router.navigate(['e-book1'])
+  this.router.navigate(['/e-book1'])
 }
 navigateToPodcast() {
-  this.router.navigate(['podcast1'])
+  this.router.navigate(['/podcast1'])
 }
 
+
 }
+
+

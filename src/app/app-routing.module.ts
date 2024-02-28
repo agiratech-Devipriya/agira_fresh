@@ -11,7 +11,8 @@ import { EBook1Component } from './e-book1/e-book1.component';
 import { Podcast1Component } from './podcast1/podcast1.component';
 
 const routes: Routes = [
-  {path: '', 
+  {
+  path: '', 
   component: HomeComponent},
 {
   path :'e-book',

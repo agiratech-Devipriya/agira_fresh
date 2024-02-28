@@ -15,6 +15,10 @@ export class EBook1Component {
    { title: 'Pride and Prejudice', imageUrl: 'https://placehold.co/150x200' },
    {title:'Wuthering Heights',imageUrl:'https://placehold.co/150x200'},
    {title:'Catcher in the Rye',imageUrl:'https://placehold.co/150x200'},
+   { title: 'The Great Gatsby', imageUrl: 'https://placehold.co/150x200'},
+   { title: 'Pride and Prejudice', imageUrl: 'https://placehold.co/150x200' },
+   {title:'Wuthering Heights',imageUrl:'https://placehold.co/150x200'},
+   {title:'Catcher in the Rye',imageUrl:'https://placehold.co/150x200'},
    
  
  ];

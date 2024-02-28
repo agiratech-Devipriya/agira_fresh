@@ -25,7 +25,25 @@ export class Card1Component {
     h2:'Harini',
     h5:'engineer',
     p:'It is our job to get you the information you need, so you can make the most of your aviation investments.'
-  }
+  },
+  {
+    imageUrl:"https://placehold.co/200x200",
+    h2:'Devipriya',
+    h5:'engineer',
+    p:'It is our job to get you the information you need, so you can make the most of your aviation investments.'
+  },
+  {
+    imageUrl:"https://placehold.co/200x200",
+    h2:'Devipriya',
+    h5:'engineer',
+    p:'It is our job to get you the information you need, so you can make the most of your aviation investments.'
+  },
+  {
+    imageUrl:"https://placehold.co/200x200",
+    h2:'Devipriya',
+    h5:'engineer',
+    p:'It is our job to get you the information you need, so you can make the most of your aviation investments.'
+  },
   
   
   

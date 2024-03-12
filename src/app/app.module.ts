@@ -14,6 +14,10 @@ import { HomeComponent } from './home/home.component';
 import { Article1Component } from './article1/article1.component';
 import { EBook1Component } from './e-book1/e-book1.component';
 import { Podcast1Component } from './podcast1/podcast1.component';
+import { AboutComponent } from './about/about.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { HttpClientModule } from '@angular/common/http';
+import { About1Component } from './about1/about1.component';
 
 @NgModule({
   declarations: [
@@ -27,12 +31,16 @@ import { Podcast1Component } from './podcast1/podcast1.component';
     Article1Component,
     EBook1Component,
     Podcast1Component,
+    AboutComponent,
+    NavbarComponent,
+    About1Component,
+    
   ],
   imports: [
     BrowserModule,
     NgbModule,
     AppRoutingModule,
-    
+    HttpClientModule
   
   ],
   providers: [

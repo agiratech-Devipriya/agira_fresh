@@ -50,7 +50,7 @@ export class HomeComponent {
   ebookData: any;
   selectedEbook: any;
   ebooks: any = [
-   { title: 'The Great Gatsby', imageUrl: 'https://placehold.co/150x200'},
+   { title: 'The Great Gatsby', imageUrl: 'assets/images/Bims-varld_Klassresan-cover (1).jpg'},
    { title: 'Pride and Prejudice', imageUrl: 'https://placehold.co/150x200' },
    {title:'Wuthering Heights',imageUrl:'https://placehold.co/150x200'},
    {title:'Catcher in the Rye',imageUrl:'https://placehold.co/150x200'},

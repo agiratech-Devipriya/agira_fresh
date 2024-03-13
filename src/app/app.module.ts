@@ -15,9 +15,9 @@ import { Article1Component } from './article1/article1.component';
 import { EBook1Component } from './e-book1/e-book1.component';
 import { Podcast1Component } from './podcast1/podcast1.component';
 import { AboutComponent } from './about/about.component';
-import { NavbarComponent } from './navbar/navbar.component';
+// import { NavbarComponent } from './navbar/navbar.component';
 import { HttpClientModule } from '@angular/common/http';
-import { About1Component } from './about1/about1.component';
+// import { About1Component } from './about1/about1.component';
 
 @NgModule({
   declarations: [
@@ -32,8 +32,7 @@ import { About1Component } from './about1/about1.component';
     EBook1Component,
     Podcast1Component,
     AboutComponent,
-    NavbarComponent,
-    About1Component,
+   
     
   ],
   imports: [

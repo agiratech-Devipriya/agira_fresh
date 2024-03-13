@@ -1,3 +1,7 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
 h2{
     color: #061020;
     font-family: rubik,Sans-serif;
@@ -16,7 +20,7 @@ h3{
 }
 .imgage1{
     border-radius: 50%;
-    margin-left:200px;
+   
     margin-top: 50px;
     
 }
@@ -34,7 +38,6 @@ line-height: 30px
     text-align: center;
     line-height: 1;
     font-size: 50px;
-    
 }
 .spansa{
     display: inline-block;
@@ -43,7 +46,7 @@ line-height: 30px
     align-items: center;
     display: flex;
     margin-bottom: 50px;
-    
+    min-width: 1140px;
 }
 .details{
     display: flex;
@@ -58,7 +61,6 @@ line-height: 30px
     font-weight: 500;
     font-style: italic;
     line-height: 34px;
-    margin-right: 200px;
 }
 .episode{
     margin-left: 250px;
@@ -73,3 +75,4 @@ line-height: 30px
  
         
 }
+ 

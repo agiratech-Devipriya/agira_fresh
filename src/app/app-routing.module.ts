@@ -10,8 +10,8 @@ import { Article1Component } from './article1/article1.component';
 import { EBook1Component } from './e-book1/e-book1.component';
 import { Podcast1Component } from './podcast1/podcast1.component';
 import { AboutComponent } from './about/about.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { About1Component } from './about1/about1.component';
+// import { NavbarComponent } from './navbar/navbar.component';
+// import { About1Component } from './about1/about1.component';
 
 const routes: Routes = [
   {
@@ -53,14 +53,7 @@ const routes: Routes = [
   path: 'people/:people',
  component :AboutComponent
   },
-  {
-    path: 'navbar',
-    component : NavbarComponent
-  },
-  {
-    path:'about1',
-    component:About1Component
-  }
+ 
 
 ];
 
